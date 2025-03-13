@@ -9,7 +9,7 @@ public class SoalDua {
 
         for (int i = 0; i < matriks.length; i++) {
             for (int j = 0; j < matriks[i].length; j++) {
-                matriks[i][j] = rand.nextInt(100) + 1;
+                matriks[i][j] = rand.nextInt(10) + 1;
             }
         }
 

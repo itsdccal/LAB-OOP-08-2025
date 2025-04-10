@@ -26,7 +26,7 @@ class Mahasiswa {
     }
 }
 
-public class No4Alamat {
+public class TP2_Nomor4_H071241078 {
     public static void main(String[] args) {
         Alamat alamat = new Alamat();
         alamat.jalan = "PK 7";

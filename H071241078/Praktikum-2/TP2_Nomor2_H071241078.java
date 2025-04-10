@@ -1,11 +1,11 @@
-public class No2Produk {
+public class TP2_Nomor2_H071241078 {
     String id;
     String nama;
     int stok;
     double harga;
 
     
-    public No2Produk(String id, String nama, int stok, double harga) {
+    public TP2_Nomor2_H071241078(String id, String nama, int stok, double harga) {
         this.id = id;
         this.nama = nama;
         this.stok = stok;
@@ -27,7 +27,7 @@ public class No2Produk {
 
 
     public static void main(String[] args) {
-        No2Produk produk1 = new No2Produk("P001", "Buku Tulis", 10, 5000);
+        TP2_Nomor2_H071241078 produk1 = new TP2_Nomor2_H071241078("P001", "Buku Tulis", 10, 5000);
        
         produk1.tampilkanInfoProduk();
         System.out.println("Tersedia di stok? " + (produk1.isTersedia() ? "Ya" : "Tidak"));

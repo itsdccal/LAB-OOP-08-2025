@@ -1,4 +1,4 @@
-public class No1Person {
+public class TP2_Nomor1_H071241078 {
     String name;
     int age;
     boolean isMale;
@@ -29,7 +29,7 @@ public class No1Person {
 
     public static void main(String[] args) {
   
-        No1Person person1 = new No1Person();
+        TP2_Nomor1_H071241078 person1 = new TP2_Nomor1_H071241078();
         
 
         person1.setName("Baco");

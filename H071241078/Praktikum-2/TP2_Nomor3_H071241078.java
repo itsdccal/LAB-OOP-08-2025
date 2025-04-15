@@ -8,7 +8,7 @@ class Cuboid {
     }
 }
 
-public class Nomor3 {
+public class TP2_Nomor3_H071241078 {
     public static void main(String[] args) {
         Cuboid cuboid = new Cuboid();
         

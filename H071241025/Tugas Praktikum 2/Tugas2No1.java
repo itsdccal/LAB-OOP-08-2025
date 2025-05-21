@@ -1,4 +1,17 @@
-public class Person {
+public class Tugas2No1 {
+    public static void main(String[] args) {
+        Person orang = new Person();
+        orang.setName("Jaemin");
+        orang.setAge(25);
+        orang.setGender(true);
+
+        System.out.println("Name : " + orang.getName());
+        System.out.println("Age : " + orang.getAge());
+        System.out.println("Gender : " + orang.getGender());
+    }
+}
+
+class Person {
     public String name;
     public int age;
     public boolean isMale;
@@ -25,16 +38,5 @@ public class Person {
 
     public String getGender() {
         return isMale ? "Male" : "Female";
-    }
-
-    public static void main(String[] args) {
-        Person person = new Person();
-        person.setName("Bayu");
-        person.setAge(20);
-        person.setGender(true);
-
-        System.out.println("Name: " + person.getName());
-        System.out.println("Age: " + person.getAge());
-        System.out.println("Gender: " + person.getGender());
     }
 }
